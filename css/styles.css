@@ -116,10 +116,11 @@ body {
 }
 
 /*section features*/
+/*ФОНТ САЙЗ ???*/
 
 .list-features {
   font-weight: 700;
-
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -144,6 +145,15 @@ body {
 }
 
 /*section team*/
+
+.team-header {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
 
 .team-member {
   font-weight: 500;
@@ -170,8 +180,10 @@ body {
 }
 
 /*портфолио*/
+/*ФОНТ_ФАМИЛИ???*/
 
 .filter-btn {
+  font-family: inherit;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -236,7 +248,6 @@ body {
 
 .adress {
   font-style: normal;
-
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
@@ -245,7 +256,6 @@ body {
 
 .footer-contact {
   font-style: normal;
-
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
